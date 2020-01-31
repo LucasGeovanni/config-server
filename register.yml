@@ -5,8 +5,7 @@ eureka:
   instance:
     hostname: localhost
     port: 8761
-    metadataMap:
-      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${server.port}}
   client:
     registerWithEureka: true
     fetchRegistry: false
