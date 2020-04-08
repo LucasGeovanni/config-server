@@ -1,2 +1,6 @@
 server:
   port: 9091
+
+access:
+  username: lucas
+  password: lucas
