@@ -4,3 +4,12 @@ server:
 access:
   username: lucas123
   password: lucas
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  health,info,refresh
+  endpoint:
+    refresh:
+      enabled: true
