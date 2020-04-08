@@ -3,7 +3,7 @@ server:
 
 access:
   username: lucas123
-  password: "{cipher}424f0cca5c867a8f64b785308373ee0bd22e0e019b4814dcafb2c6a1bf1568ee"
+  password: "{cipher}e65090360c6898772e0349a5c4eea6c979cb438bf40864de9eb7d1016efc4da63f84ed8497cb9ae122e5dcebee0f0ff77011cb3103daaa5dd477ef796adecf86efb88876f67e30559bd2a820271146b32910847cdb2ff644ac5030caef1622da"
   
 management:
   endpoints:
